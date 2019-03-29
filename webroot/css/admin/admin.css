@@ -1,0 +1,42 @@
+
+.hello{
+    font-size: 2em;
+}
+
+#manage-admin{
+    background-color: rgba(255, 0, 0, 0.49);
+    margin: 40px;
+}
+
+#manage-admin-group{
+    column-count: 2;
+}
+
+.manage-admin-group-button{
+    width: 100px;
+margin: auto;
+background-color: white;
+}
+
+#list-users-header{
+    margin-top: 20px;
+margin-bottom: 20px;
+}
+
+#search-users input{
+    width: 50%;
+margin: auto;
+}
+
+#list-users-header, .user-content{
+    column-count: 5;
+    padding: 10px;
+}
+
+.user-content{
+}
+
+#list-users-header span,.user-content span,.user-content a{
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+:root{
+    --border-radius:8px;
+}
+.ps-input-research{
+    border-top-left-radius: var(--border-radius) !important;
+    border-bottom-left-radius: var(--border-radius) !important;
+}
+.ps-btn-research{
+    border-top-right-radius: var(--border-radius) !important;
+    border-bottom-right-radius: var(--border-radius) !important;
+}
+
+.ps-navbar{
+    top:0;
+}
+.ps-sidebar{
+top: 56px;
+    height: 100%;
+}
+
+.ps-navbar, .ps-sidebar{
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.28);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.post{
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.post-info{
+
+}
+
+.post-date{
+    padding: 5px;
+    border-radius: 5px;
+    color: gray;
+    font-weight: 100;
+    font-size: 0.7em;
+}
+
+.btn, .form-control{
+    border-radius: var(--border-radius);
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+}
