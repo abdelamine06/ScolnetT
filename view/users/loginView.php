@@ -15,8 +15,8 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script> 
-<link rel="stylesheet" href="../../webroot/css/connexion/style_connexion.css">
-<link rel="stylesheet" href="../../webroot/css/style_global.css">
+<link rel="stylesheet" href="../webroot/css/connexion/style_connexion.css">
+<link rel="stylesheet" href="../webroot/css/style_global.css">
 <title>ScolNet</title>
 
 </head>

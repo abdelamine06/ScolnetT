@@ -7,7 +7,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>	
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../../webroot/css/HomeUser/style.css">
+        <link rel="stylesheet" href="../webroot/css/HomeUser/style.css">
        
     </head>
     <body>
@@ -15,7 +15,6 @@
 					<div class="text-center mt-5 loadingmessage" style="display: none; z-index:1000; position:fixed; top:100px; left:600px;">
 					 <div id="logo" class="mt-5" style="position: relative; top: 50px;">
                             <span class="text-danger h3" id="logo-1 ">S</span>
-                            <?php print_r($data);?>
                             <span  class="text-success h3 " id="logo-2 ">c</span>
                             <span class="text-warning  h3 " id="logo-3 ">o</span>
                             <span  class="text-default  h3"  id="logo-4">l</span>
@@ -29,13 +28,13 @@
 	<div class="container-body">
         <!--header-->
         <?php
-      include($_SERVER['DOCUMENT_ROOT']."/view/includes/header.php");
+      include($_SERVER['DOCUMENT_ROOT']."Scolnet/view/includes/header.php");
         ?>
         <!--header-->
         <div class="container-fluid">
   		<!--sidebar-->
                 <?php
-                include($_SERVER['DOCUMENT_ROOT']."/view/includes/sidebar.php");
+                include($_SERVER['DOCUMENT_ROOT']."Scolnet/view/includes/sidebar.php");
                 ?>
                 <!--sidebar-->
                 <main class="col-12 col-md-9 col-xl-8" role="main">

@@ -5,7 +5,8 @@
         <title>FAQ</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../../webroot/css/home/style.css">
+        <link rel="stylesheet" href="../webroot/css/home/style.css">
+       
         <style media="screen">
 
         </style>
@@ -14,12 +15,12 @@
     <body>
         <!--header-->
         <nav class="navbar navbar-light ps-navbar">
-            <a href="https://scolnet.000webhostapp.com/users/home">
+            <a href="<?php echo SCOLNET.'users/home';?>">
                 <button type="button" class="btn btn-sm btn-outline-primary">
                     ⟨ Retour
                 </button>
             </a>
-            <a href="https://scolnet.000webhostapp.com/users/login">
+            <a href="<?php echo SCOLNET.'users/login';?>">
             <button type="button" class="btn btn-sm btn-outline-primary">Se connecter ⟩</button>
             </a>
             

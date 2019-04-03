@@ -5,7 +5,7 @@
         <title>home</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../../webroot/css/home/style.css">
+        <link rel="stylesheet" href="../webroot/css/home/style.css">
         <style media="screen">
 
         </style>
